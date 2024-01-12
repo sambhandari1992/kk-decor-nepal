@@ -1,0 +1,101 @@
+.div2 {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 60%;
+
+  .child1 {
+    border-radius: 10px;
+
+    backdrop-filter: blur(0.5px);
+    background-color: rgba(45, 44, 44, 0.5);
+
+    display: flex;
+    flex-direction: column;
+
+    span {
+      padding: 20px;
+    }
+    .one {
+      color: rgb(247, 199, 175);
+      font-size: 15px;
+    }
+
+    .two {
+      padding: 10px;
+      margin-left: 20px;
+      border-left: 5px solid rgb(247, 199, 175);
+
+      color: rgb(243, 247, 241);
+      font-size: 35px;
+    }
+    .three {
+      padding: 10px;
+
+      margin-left: 20px;
+      margin-top: -20px;
+
+      border-left: 5px solid rgb(247, 199, 175);
+
+      font-size: 65px;
+      color: rgb(243, 247, 241);
+    }
+    .three {
+      font-size: 65px;
+      color: rgb(243, 247, 241);
+    }
+    .four {
+      color: rgb(243, 247, 241);
+    }
+    .btn {
+      padding: 10px;
+      gap: 30px;
+      display: flex;
+
+      span {
+        padding: 5px;
+      }
+
+      button {
+        color: white;
+      }
+    }
+
+    &.flex-basis-60 {
+      flex-basis: 60%;
+    }
+  }
+  .child2 {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    .div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+
+      button {
+        background-color: rgb(150, 150, 152);
+        border-radius: 10px;
+        color: white;
+        opacity: 1;
+        backdrop-filter: blur(0px);
+        transition: background-color 0.3s ease;
+
+        &.app-icon {
+          background-color: #007aff;
+        }
+      }
+
+      button svg {
+        opacity: 1;
+        width: 34px;
+        height: 24px;
+        filter: brightness(150%);
+      }
+    }
+  }
+}

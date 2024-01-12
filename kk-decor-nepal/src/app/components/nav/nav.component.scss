@@ -1,0 +1,46 @@
+mat-toolbar {
+    background-color: transparent !important;
+    display: flex;
+
+
+
+    .section1,
+    .section2 {
+        border-radius: 10px;
+        padding: 1em;
+        background-color: rgb(150, 150, 152);
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+    .section1 {
+        flex-basis: 75%;
+        padding: 1em;
+        .div1 {
+            .logo {
+                font-weight: 800;
+                color: rgb(6, 108, 120);
+                font-size: xx-large;
+                font-style: italic;
+                font-family: "Times New Roman", Times, serif;
+            }
+        }
+        .div2 {
+            flex-basis: 50%;
+            display: flex;
+            justify-content: space-around;
+            .links {
+                font-size: medium;
+                color: rgb(2, 59, 19);
+            }
+        }
+    }
+
+    .section2 {
+        margin-left: auto;
+    }
+   
+}

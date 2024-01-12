@@ -1,0 +1,22 @@
+
+main {
+    padding: 2%;
+    background-color: rgb(150, 150, 152);
+    display: flex;
+    justify-content: center;
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.3); 
+        border-radius: 20px;
+        padding: 3%;
+        max-width: 1500px;
+        width: 100%;
+        background-image: url("../assets/background-pictures/KK-Decore.jpeg");
+        background-size: cover;
+        background-position: center;
+        min-height: 600px; 
+    }
+}
